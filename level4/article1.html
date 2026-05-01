@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="TechCorp Press Release: SmartPhone X Series but the Specs Aren&apos;t Adding Up"
+    subtitle="By Clark Kent | 2 April 2026"
+    home-url="../index.html"
+    level="4"
+    level-name="Level 4: Beep Boop Beep"
+    correct-code="42"
+    next-url="../finish.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            This week TechCorp, a consumer electronics giant, has caused ripples
+            with the release of its new SmartPhone X series. The launch has been
+            extensively covered &mdash; however, in comparison of notes, journalists
+            are discovering that not all the stories are the same.
+        </p>
+        <div/>
+        <p>
+            The initial press release, 2 April, was that the device would come
+            with 1 charging cable in the box. The TechCorp product page, which was
+            revised on the same day, had the number of included accessories as 0.
+        </p>
+        <hr class="article-divider">
+        <p>
+            According to industry analysts, discrepancies could be due to the
+            release of information by stages, which is a common strategy in testing
+            media reaction to the news before it is announced. Some are of the
+            opinion that the discrepancies are merely due to poor editorial control.
+        </p>
+        <div/>
+        <p>
+            Those interested in reading the entire story, are advised to read all
+            the coverage sequentially as it was reported. The characters, following
+            each other one after another, might be more enlightening than one report.
+        </p>
+
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card">
+            <a href="article2.html">
+                <h3>SmartPhone X: Preliminary Impression: Hands-On Impression of the Press Event</h3>
+                <p>By Clark Kent | 5 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article3.html">
+                <h3>TechCorp CEO Makes Statement about SmartPhone X Launch Window</h3>
+                <p>By Tony Stark | 9 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article4.html">
+                <h3>SmartPhone X Review Embargo Lifts, What the Tech Press Said</h3>
+                <p>By Tony Stark | 14 Apr 2026</p>
+            </a>
+        </div>
+        <news-hint src="../images/hints/level4-hint.webp" delay="60"></news-hint>
+    </div>
+</article-layout>
+
+</body>
+</html>

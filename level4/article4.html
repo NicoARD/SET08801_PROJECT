@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="SmartPhone X Review Embargo Lifts, What the Tech Press Said"
+    subtitle="By Tony Stark | 14 April 2026"
+    home-url="../index.html"
+    level="4"
+    level-name="Level 4: Beep Boop Beep"
+    correct-code="42"
+    next-url="../finish.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            The embargo on the SmartPhone X has been lifted, and the ensuing flood
+            of coverage was &mdash; to say the least &mdash; mixed. Some of the reviews glorified the camera setup and the construction quality with a
+            note on how the device would overheat and perform only average battery life.
+        </p>
+        <div/>
+        <p>
+            One of the largest technology magazines gave the device 1 out of 5 stars, stating that all essential specifications were at one
+            point falsely portrayed in the pre-launch process, and so the product is hard to judge based on its merits. Others were kinder and they
+            referred to the camera as best-in-class.
+        </p>
+        <hr class="article-divider">
+        <p>
+            TechCorp issued a brief response to the critical reviews, stating that the device "speaks for itself" and that the company stood by its
+            launch communications. The statement was 0 words longer than the minimum required to constitute an official response &mdash; a fact not lost on
+            industry observers.
+        </p>
+        <div/>
+        <p>
+            The SmartPhone X goes on sale next month. Collect the highlighted figures from all four articles in the order they were published to
+            find your answer.
+        </p>
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card">
+            <a href="article1.html">
+                <h3>TechCorp Press Release: SmartPhone X Series but the Specs Aren't Adding Up</h3>
+                <p>By Clark Kent | 2 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article2.html">
+                <h3>SmartPhone X: Preliminary Impression: Hands-On Impression of the Press Event</h3>
+                <p>By Clark Kent | 5 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article3.html">
+                <h3>TechCorp CEO Makes Statement about SmartPhone X Launch Window</h3>
+                <p>By Tony Stark | 9 Apr 2026</p>
+            </a>
+        </div>
+        <news-hint src="../images/hints/level4-hint.webp" delay="60"></news-hint>
+    </div>
+</article-layout>
+
+</body>
+</html>

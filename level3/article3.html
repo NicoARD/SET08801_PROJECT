@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="Third Account Raises New Questions on the Highland Incident"
+    subtitle="By Tony Stark | 17 March 2026"
+    home-url="../index.html"
+    level="3"
+    level-name="Level 3: UFO Sighting Inconsistencies"
+    correct-code="150394"
+    next-url="../level4/article1.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            A third individual has come forward claiming to have witnessed the Cairngorm lights, but their account introduces a date that conflicts
+            sharply with the other two reports and has raised questions about
+            the reliability of the testimony.
+        </p>
+        <div/>
+        <p>
+            The witness, who declined to be named in full, claimed the incident
+            took place "on a Tuesday evening in late June 1997". They described
+            seeing "a single bright object" moving from east to west, "much
+            faster than any aircraft", a characterisation that differs
+            significantly from the formation described by the first two witnesses.
+        </p>
+        <hr class="article-divider">
+        <p>
+            Researchers have noted that the description of a single object moving
+            rapidly is inconsistent with both other accounts. The anonymous fourth
+            witness, who reviewed all three statements, stated that this third
+            account was the one they could not corroborate.
+        </p>
+        <div/>
+        <p>
+            "Two of the three reports are essentially the same event," the fourth
+            witness wrote. "The third describes something different, a different
+            time, a different shape, a different pattern of movement. I cannot say
+            what that person saw, but it was not what I witnessed."
+        </p>
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card">
+            <a href="article1.html">
+                <h3>Unexplained Lights Reported Over the Scottish Highlands, Witness Accounts Conflict</h3>
+                <p>By Natasha Romanoff | 15 Mar 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article2.html">
+                <h3>Second Witness Testimony: &quot;It Hovered Nearly Four Minutes&quot;</h3>
+                <p>By Natasha Romanoff | 16 Mar 2026</p>
+            </a>
+        </div>
+        <news-hint src="../images/hints/level3-hint.webp" delay="60"></news-hint>
+    </div>
+</article-layout>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="A Life in Public Service: Sir Bartholomew Allen's Civic Legacy"
+    subtitle="By Diana Prince | 26 April 2026"
+    home-url="../index.html"
+    level="2"
+    level-name="Level 2: Bartholomew's Birthday"
+    correct-code="1952"
+    next-url="../level3/article1.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            Sir Bartholomew Allen was a permanent feature of the civic life of Edinburgh, a career of forty years. He was a member of the planning
+            committee, chairperson of various public inquiries and in 1987 he was appointed city magistrate, serving twenty-five years.
+        </p>
+        <div/>
+        <p>
+            Co-workers speak of a man who applied the same level-headedness to all positions. One of his former councillors who has served with him
+            remarked that he never made a hasty decision. It was his way, home, hink, and come back with an answer.
+        </p>
+        <hr class="article-divider">
+        <p>
+            In 2012 Sir Bartholomew stepped down, with reference to his health, of all his public work. In his honour a civic reception was given at the
+            City Chambers where some 500 guests were present. Three years later, he died and he left a small yet highly praised legacy.
+        </p>
+        <div/>
+        <p>
+            "Everything that he had to give was given to this city," said the Lord Provost when he died. His papers were donated to the Historical Society as per his wishes.
+        </p>
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card">
+            <a href="article1.html">
+                <h3>Remarkable Archive of Local Dignitary Sir Bartholomew Allen Discovered</h3>
+                <p>By Peter Parker | 28 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article2.html">
+                <h3>A Rewarded Student: The University Days of Sir Bartholomew Allen</h3>
+                <p>By Peter Parker | 27 Apr 2026</p>
+            </a>
+        </div>
+        <news-hint src="../images/hints/level2-hint.webp" delay="60"></news-hint>
+    </div>
+</article-layout>
+
+</body>
+</html>

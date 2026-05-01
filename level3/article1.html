@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="Unexplained Lights Reported Over the Scottish Highlands, Witness Accounts Conflict"
+    subtitle="By Natasha Romanoff | 15 March 2026"
+    home-url="../index.html"
+    level="3"
+    level-name="Level 3: UFO Sighting Inconsistencies"
+    correct-code="150394"
+    next-url="../level4/article1.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            Several witnesses have emerged after reports of strange lights that have been observed in the Cairngorm plateau. The observations have been
+            of interest to both amateur astronomers and conspiracy theorists, with official explanations being inconclusive.
+        </p>
+        <div/>
+        <p>
+            A hill walker of Aviemore, the first witness, handed in the following to this publication: "I was returning down on the plateau on the
+            evening of the fifteenth, when it was a cold night &mdash; above the ridge I saw four or five lights passing in a procession. They were
+            silent. Then I waited three or four minutes, and they disappeared."
+        </p>
+        <hr class="article-divider">
+        <p>
+            Meteorological services stated that no unusual atmospheric conditions  were observed on the dates when the witnesses claimed to have witnessed them, but one official admitted to the fact that there were minor data gaps in the record of monitoring at the time.
+        </p>
+        <div/>
+        <p>
+            A fourth witness, a person desiring anonymity, gave a written account which on all but one point agreed with two of the three reports
+            presented. The details of all the accounts have been summarized in the companion articles on the sidebar.
+        </p>
+
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card">
+            <a href="article2.html">
+                <h3>Second Witness Testimony: &quot;It Hovered Nearly Four Minutes&quot;</h3>
+                <p>By Natasha Romanoff | 16 Mar 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article3.html">
+                <h3>Third Account Raises New Questions About the Highland Incident</h3>
+                <p>By Tony Stark | 17 Mar 2026</p>
+            </a>
+        </div>
+        <news-hint src="../images/hints/level3-hint.webp" delay="60"></news-hint>
+    </div>
+</article-layout>
+
+</body>
+</html>

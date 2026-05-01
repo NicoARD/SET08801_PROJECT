@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="TechCorp CEO Makes Statement about SmartPhone X Launch Window"
+    subtitle="By Tony Stark | 9 April 2026"
+    home-url="../index.html"
+    level="4"
+    level-name="Level 4: Beep Boop Beep"
+    correct-code="42"
+    next-url="../finish.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            On Thursday, the Chief Executive of TechCorp, Dana Voss made a short statement to the assembled media that discussed the mounting confusion
+            regarding the release schedule of the SmartPhone X. The message failed to put an end to the issues.
+        </p>
+        <div/>
+        <p>
+            According to Voss, the device had received
+            0 major hardware revisions since the press event, and said that it was our commitment to provide our customers with the best possible
+            experience and that a leak of an internal memo published on a tech blog the dayy before was inconsistent with that commitment.
+        </p>
+        <hr class="article-divider">
+        <p>
+            After about four minutes, Voss refused to respond to follow-up questions and was escorted out of the podium. In the hours that followed, the share price of the company dropped slightly.
+        </p>
+        <div/>
+        <p>
+            Its official launch date is not yet known. Analysts predict another announcement in the next two weeks. To get the complete picture, read all coverage related in the order of publications.
+        </p>
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card">
+            <a href="article1.html">
+                <h3>TechCorp Press Release: SmartPhone X Series but the Specs Aren't Adding Up</h3>
+                <p>By Clark Kent | 2 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article2.html">
+                <h3>SmartPhone X: Preliminary Impression: Hands-On Impression of the Press Event</h3>
+                <p>By Clark Kent | 5 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article4.html">
+                <h3>SmartPhone X Review Embargo Lifts, What the Tech Press Said</h3>
+                <p>By Tony Stark | 14 Apr 2026</p>
+            </a>
+        </div>
+    </div>
+</article-layout>
+
+</body>
+</html>

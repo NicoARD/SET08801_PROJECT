@@ -1,0 +1,145 @@
+﻿/* =====================================================
+   New Escape Times â€” Main Stylesheet
+   Global rules only. Component-specific styles live
+   inside each Web Component's Shadow DOM.
+   ===================================================== */
+
+/* â”€â”€â”€ RESET â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* â”€â”€â”€ CUSTOM ELEMENTS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+news-header, news-article, news-sidebar { display: block; }
+
+:root {
+    --bg:           #f4f1e8;
+    --top-bar-bg:   #1a1a2e;
+    --accent:       #c41e3a;
+    --text:         #1a1a1a;
+    --text-muted:   #555;
+    --border:       #d0ccc0;
+    --sidebar-bg:   #ede9de;
+    --font-body:    Georgia, 'Times New Roman', serif;
+    --font-ui:      'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    padding-bottom: 60px;
+}
+
+.page-layout {
+    max-width: 1100px;
+    margin: 1.5rem auto 0;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 290px;
+    gap: 2.5rem;
+    align-items: start;
+}
+
+.article-body p {
+    font-size: 1.04rem;
+    line-height: 1.78;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.article-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.4rem 0;
+}
+
+.transmission-block {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.35rem;
+    letter-spacing: 0.18em;
+    line-height: 2.2;
+    background: #fffef9;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--top-bar-bg);
+    padding: 1.1rem 1.6rem;
+    margin: 1.4rem 0;
+    color: var(--top-bar-bg);
+}
+
+.transmission-caption {
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: -0.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.puzzle-key {
+    font-weight: bold;
+    background: #fff3cd;
+    padding: 0 0.2em;
+}
+
+.sidebar-card {
+    margin-bottom: 1.3rem;
+}
+
+.sidebar-card h3 {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--top-bar-bg);
+    margin-bottom: 0.25rem;
+}
+
+.sidebar-card p {
+    font-family: var(--font-ui);
+    font-size: 0.76rem;
+    color: var(--text-muted);
+}
+
+.sidebar-card a {
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar-card a:hover h3 {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+.sidebar-card.locked h3 {
+    color: #999;
+}
+
+.locked-label {
+    display: inline-block;
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #c9a227;
+    border: 1px solid #c9a227;
+    padding: 0.1rem 0.4rem;
+    margin-top: 0.3rem;
+    border-radius: 2px;
+}
+
+.sidebar-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 0.8rem 0;
+}
+
+/* RESPONSIVE  */
+@media (max-width: 768px) {
+    .page-layout {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+}
+

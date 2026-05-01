@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="Aliens in New York?"
+    subtitle="By Bruce Wayne | 30 April 2026"
+    home-url="../index.html"
+    level="1"
+    level-name="Level 1: Upgrade to Premium"
+    correct-code="ALIEN"
+    next-url="../level2/article1.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            In an event never seen before, New York City was attacked late last night by mysterious flying objects. 
+            Numerous silver objects were seen swooping between buildings, 
+            producing low-frequency hums and flashes before releasing smaller, drone-like vehicles onto the streets.
+        </p>
+        <br/>
+        <hr class="article-divider">
+        <p>
+            In a matter of minutes, the city started to collapse. 
+        </p>
+        <p>
+            Street lights flickered, communication systems began to malfunction 
+            and select areas experienced power outages. 
+        </p>
+        <br/>
+        <p>Law enforcement and firefighters were overwhelmed as panic spread through the city, with people evacuating public spaces and taking refuge.</p>
+        <div/>
+        <p>The situation was described as "chaotic" by witnesses, with traffic jams and gridlock making it difficult for emergency services to respond effectively.</p>
+        <hr class="article-divider">
+        <p>
+            In the midst of the chaos, a group of unknown heroes began to fight back. 
+            They were described as being amazingly well-coordinated without obvious means of communication.
+        </p>
+        <div/>
+        <p>
+            One person seemed to project energy fields capable of taking out multiple drones at once, 
+            while another person had superhuman strength, removing debris and rescuing trapped civilians.
+        </p>
+        <hr class="article-divider">
+
+        <p>
+            heir actions helped minimise the casualties and property damage, 
+            although authorities have not identified who they are or to what organisation they belong. 
+            The government has declared that they are not members of any emergency services.
+        </p>
+        <hr class="article-divider">
+        <br/>
+
+        <p>
+            Their actions helped minimise the casualties and property damage, although authorities have not identified 
+            who they are or to what organisation they belong. 
+            The government has declared that they are not members of any emergency services.
+        </p>
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card locked">
+            <h3>The Hidden Language of Wartime Dispatches</h3>
+            <p>By Diana Prince</p>
+            <span class="locked-label">Upgrade to Premium to read</span>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card locked">
+            <h3>Dots, Dashes and the Art of Concealment</h3>
+            <p>By Archive Correspondent</p>
+            <span class="locked-label">Upgrade to Premium to read</span>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card locked">
+            <h3>Signal and Silence: A Century of Coded Messages</h3>
+            <p>By Bruce Wayne</p>
+            <span class="locked-label">Upgrade to Premium to read</span>
+        </div>
+        <news-hint src="../images/hints/level1-hint.webp" delay="60"></news-hint>
+    </div>
+</article-layout>
+
+</body>
+</html>

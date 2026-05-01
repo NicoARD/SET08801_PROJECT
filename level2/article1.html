@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>New Escape Times</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/progression.js" defer></script>
+    <script src="../scripts/components/news-header.js" defer></script>
+    <script src="../scripts/components/news-article.js" defer></script>
+    <script src="../scripts/components/news-sidebar.js" defer></script>
+    <script src="../scripts/components/news-hint.js" defer></script>
+    <script src="../scripts/game-nav.js" defer></script>
+    <script src="../scripts/components/article-layout.js" defer></script>
+</head>
+<body>
+
+<article-layout
+    headline="Remarkable Archive of Local Dignitary Sir Bartholomew Allen Discovered"
+    subtitle="By Peter Parker | 28 April 2026"
+    home-url="../index.html"
+    level="2"
+    level-name="Level 2: Bartholomew's Birthday"
+    correct-code="1952"
+    next-url="../level3/article1.html">
+
+    <div slot="body" class="article-body">
+        <p>
+            To the Edinburgh Historical Society has been donated a collection of personal letters, photographs and municipal records of the late Sir
+            Bartholomew Allen. The documentation, covering a number of decades, provides a unique glimpse into the life of one of the most (quietly) powerful personalities in the city.
+        </p>
+        <div/>
+        <p>
+            Sir Bartholomew Allen was the holder of many civic offices during his life and had the reputation of keeping a meticulous record. He served the city most of his career life and was considered principled and
+            methodical to the end by his colleagues.
+        </p>
+        <hr class="article-divider">
+        <p>
+            People who worked with him recall a man who never wanted to be in the limelight. I had a former colleague who remembered him saying that he was happy to do the work. He worked till he simply could no more, had retired at sixty, not a day earlier.
+        </p>
+        <div/>
+        <p>
+            Additional papers in this series discuss the academic career of Sir Bartholomew, and his service in the public. According to archivists,
+            the different documents will have to be cross-referenced in order to come up with a credible biographical timeline.
+        </p>
+
+    </div>
+
+    <div slot="sidebar">
+        <div class="sidebar-card">
+            <a href="article2.html">
+                <h3>A Rewarded Student: The University Days of Sir Bartholomew Allen</h3>
+                <p>By Peter Parker | 27 Apr 2026</p>
+            </a>
+        </div>
+        <hr class="sidebar-divider">
+        <div class="sidebar-card">
+            <a href="article3.html">
+                <h3>A Life in Public Service: Sir Bartholomew Allen's Civic Legacy</h3>
+                <p>By Diana Prince | 26 Apr 2026</p>
+            </a>
+        </div>
+        <news-hint src="../images/hints/level2-hint.webp" delay="60"></news-hint>
+    </div>
+</article-layout>
+
+</body>
+</html>
